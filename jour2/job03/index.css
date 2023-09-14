@@ -1,0 +1,11 @@
+div {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    border: 5px solid rebeccapurple;
+    margin: auto 20%;
+    padding: 5% 10%;
+}
+
+h1::before {
+    content: '📝';
+}
