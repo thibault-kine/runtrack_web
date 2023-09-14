@@ -1,0 +1,12 @@
+article {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid blue;
+}
+
+@media screen and (min-width: 300px) {
+    article {
+        height: 300px;
+        padding: 10px;
+        overflow: scroll;
+    }
+}
