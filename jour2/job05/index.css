@@ -1,0 +1,81 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#bonjours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#bonjours *, #au-revoirs * {
+    padding: 5px;
+}
+
+#au-revoirs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#au-revoirs .fr {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#au-reovirs .es {
+    grid-column: 2;
+}
+
+#au-revoirs .ru {
+    grid-row: 3;
+}
+
+#au-revoirs .de {
+    grid-row: 3;
+}
+
+.fr {
+    background-image: linear-gradient(
+        to right,
+        blue,
+        white,
+        red
+    );
+}
+
+.es {
+    background-image: linear-gradient(
+        to bottom,
+        red,
+        yellow,
+        red
+    );
+}
+
+.ru {
+    background-image: linear-gradient(
+        to bottom,
+        white,
+        blue,
+        red
+    );
+    color: white;
+}
+
+.de {
+    background-image: linear-gradient(
+        to bottom,
+        black,
+        red,
+        yellow
+    );
+}
+
+.it {
+    background-image: linear-gradient(
+        to right,
+        green,
+        white,
+        red
+    );
+}
