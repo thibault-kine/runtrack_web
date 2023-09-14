@@ -1,0 +1,55 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article {
+    width: 40%;
+}
+
+article h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+
+article p::first-letter {
+    font-size: large;
+    font-weight: bold;
+}
+
+article ul li:first-child {
+    color: gold;
+}
+
+article ul li:first-child::after {
+    content: '🏆';
+}
+
+article ul li:nth-child(2) {
+    color: silver
+}
+
+article ul li:nth-child(3) {
+    color: brown;
+}
+
+article img {
+    border-radius: 20px;
+    width: 70%;
+    box-shadow: 5px 5px blue, -5px -5px red;
+}
+
+article div.container {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article div#box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
