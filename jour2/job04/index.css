@@ -1,0 +1,23 @@
+.myDiv {
+    border: 5px black solid;
+    margin: auto;
+
+    width: 90%;
+    height: 100px;
+}
+
+.myDiv--rounded {
+    border-radius: 20px;
+}
+
+.myDiv--orange {
+    background-color: orange;
+}
+
+.myDiv--dotted {
+    border-style: dotted;
+}
+
+.myDiv__subDiv {
+    background-color: aqua;
+}
