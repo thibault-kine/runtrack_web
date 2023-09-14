@@ -1,0 +1,11 @@
+p {
+    width: 50%;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+}
+
+p::first-letter {
+    font-size: large;
+    color: red;
+    font-weight: bold;
+}
