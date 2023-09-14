@@ -1,0 +1,19 @@
+:root {
+    --title-col: rebeccapurple;
+    --paragraph-width: 60%;
+    --paragraph-style: italic;
+    --font-fam: Arial;
+}
+
+article {
+    font-family: var(--font-fam);
+}
+
+h1 {
+    color: var(--title-col);
+}
+
+p {
+    width: var(--paragraph-width);
+    font-style: var(--paragraph-style);
+}
